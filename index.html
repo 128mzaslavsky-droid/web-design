@@ -1,0 +1,106 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My school schedule</title>
+    <style>
+        /* Page layout and background */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            /* Option 1: solid background color (fallback) */
+            background-color: #f0f4f8;
+            /* Option 2: gradient - uncomment to use instead of a color */
+            /* background: linear-gradient(135deg, #e0f7fa 0%, #ffe0b2 100%); */
+            /* Option 3: image - replace the URL or use a local path like 'images/bg.jpg' */
+            /* background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80'); */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        /* Keep the schedule readable over busy backgrounds */
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem 1.25rem;
+            background: rgba(255,255,255,0.85); /* slight white overlay */
+            border-radius: 8px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 1rem 0 0.5rem;
+            color: #333;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Michael's School Schedule</h1>
+    </header>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        <h1>A day Schedule</h1>
+                    </th>
+                </tr>
+                <tr>
+                <th>
+                    <h2>Time</h2>
+                </th>
+                <th>
+                    <h2>Class</h2>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="left"><h3>7:30</h3></td>
+                    <td><h6>Honors Web Design</h6></td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>8:42</h3></td>
+                    <td><h6>US History 1</h6></td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>9:54</h3></td>
+                    <td><h6>Italian 2</h6></td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>11:06</h3></td>
+                    <td><h6>Lunch</h6></td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>11:47</h3></td>
+                    <td><h6>English 2</h6></td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>12:59</h3></td>
+                    <td><h6>Honors Algebra 1</h6></td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>2:06</h3></td>
+                    <td><h6>Leave School</h6></td>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <h3>Contact</h3>
+        <h3>Location</h3>
+        <h3>Privacy</h3>
+    </footer>
+</body>
+</html>
